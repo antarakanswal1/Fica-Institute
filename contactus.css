@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Fira Sans", sans-serif;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+}
+
+.na1{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.na2{
+    width: 50%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.na2 ul li a:hover{
+    color: yellow;
+    font-size: 20px;
+}
+
+.na2 ul li a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+    padding-top:  40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.na2 ul li{
+    list-style: none;
+}
+
+.na2 ul li a:active{
+    color: yellow;
+}
+
+.backimg1{
+    background: linear-gradient(rgba(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)),url("img/aboutfica.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+    width: 100%;
+    height: 220px;
+}
+
+.backimg1 h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.up5{
+    width: 100%;
+    display: flex;
+    height: 200px;
+    background-color:rgb(121, 214, 245);
+    margin-top: 20px;
+}
+
+
+.y1,.y2{
+    width: 50%;
+}
+
+.y1{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.y2{
+    padding-left: 400px;
+    padding-top: 70px;
+}
+
+.y2 button{
+    color: white;
+    background-color: navy;
+    font-size: 20px;
+}
+
+.y2 button:hover{
+    background-color:rgba(235, 235, 12, 0.993);
+    color: white;
+    border: 1px solid rgba(235, 235, 12, 0.993);
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    line-height: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.form1{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.form1 h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.for1,.for2,.for3{
+    display: flex;
+}
+
+.for1 p,.for2 p,.for3 p{
+    margin-left: 10px;
+}
+
+.home,.call,.envelope{
+    font-size: 20px;
+}
+
+.form2{
+    width: 40%;
+    margin-left: 20px;
+    background-color:rgba(100, 148, 237, 0.384);
+    border-radius: 15px;
+}
+
+.form2 h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form2 p{
+    text-align: center;
+}
+
+.for5{
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+
+.for5 button h5{
+    font-size: 20px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+input{
+    width: 80%;
+    font-size: 20px;
+}
+
+.up6{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.up6 h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.up6 li{
+    color:grey;
+    list-style: none;
+    line-height: 50px;
+}
+
+.a1{
+    width: 30%;
+    margin-left: 20px;
+}
+
+.a2{
+    width: 20%;
+}
+
+.a3{
+    width: 20%;
+}
+
+.a4{
+    width: 30%;
+    margin-top: 40px;
+}
+
+
+.up7{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.up8{
+    width: 50%;
+    color: white;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.up9{
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.up9 a{
+    text-decoration: none;
+}
+
